@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF08CCCB1BF9EB5F0085894D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF08CCCA1BF9EB5F0085894D /* AppDelegate.swift */; };
+		DF08CCCD1BF9EB5F0085894D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF08CCCC1BF9EB5F0085894D /* FirstViewController.swift */; };
+		DF08CCCF1BF9EB5F0085894D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF08CCCE1BF9EB5F0085894D /* SecondViewController.swift */; };
+		DF08CCD21BF9EB5F0085894D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF08CCD01BF9EB5F0085894D /* Main.storyboard */; };
+		DF08CCD41BF9EB5F0085894D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF08CCD31BF9EB5F0085894D /* Assets.xcassets */; };
+		DF08CCD71BF9EB5F0085894D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF08CCD51BF9EB5F0085894D /* LaunchScreen.storyboard */; };
+		DF08CCE21BF9EB600085894D /* AstrologyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF08CCE11BF9EB600085894D /* AstrologyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF08CCDE1BF9EB600085894D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF08CCBF1BF9EB5F0085894D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF08CCC61BF9EB5F0085894D;
+			remoteInfo = Astrology;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF08CCC71BF9EB5F0085894D /* Astrology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Astrology.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF08CCCA1BF9EB5F0085894D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF08CCCC1BF9EB5F0085894D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		DF08CCCE1BF9EB5F0085894D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DF08CCD11BF9EB5F0085894D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF08CCD31BF9EB5F0085894D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF08CCD61BF9EB5F0085894D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF08CCD81BF9EB5F0085894D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF08CCDD1BF9EB600085894D /* AstrologyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstrologyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF08CCE11BF9EB600085894D /* AstrologyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstrologyTests.swift; sourceTree = "<group>"; };
+		DF08CCE31BF9EB600085894D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF08CCC41BF9EB5F0085894D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF08CCDA1BF9EB600085894D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF08CCBE1BF9EB5F0085894D = {
+			isa = PBXGroup;
+			children = (
+				DF08CCC91BF9EB5F0085894D /* Astrology */,
+				DF08CCE01BF9EB600085894D /* AstrologyTests */,
+				DF08CCC81BF9EB5F0085894D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF08CCC81BF9EB5F0085894D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF08CCC71BF9EB5F0085894D /* Astrology.app */,
+				DF08CCDD1BF9EB600085894D /* AstrologyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF08CCC91BF9EB5F0085894D /* Astrology */ = {
+			isa = PBXGroup;
+			children = (
+				DF08CCCA1BF9EB5F0085894D /* AppDelegate.swift */,
+				DF08CCCC1BF9EB5F0085894D /* FirstViewController.swift */,
+				DF08CCCE1BF9EB5F0085894D /* SecondViewController.swift */,
+				DF08CCD01BF9EB5F0085894D /* Main.storyboard */,
+				DF08CCD31BF9EB5F0085894D /* Assets.xcassets */,
+				DF08CCD51BF9EB5F0085894D /* LaunchScreen.storyboard */,
+				DF08CCD81BF9EB5F0085894D /* Info.plist */,
+			);
+			path = Astrology;
+			sourceTree = "<group>";
+		};
+		DF08CCE01BF9EB600085894D /* AstrologyTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF08CCE11BF9EB600085894D /* AstrologyTests.swift */,
+				DF08CCE31BF9EB600085894D /* Info.plist */,
+			);
+			path = AstrologyTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF08CCC61BF9EB5F0085894D /* Astrology */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF08CCE61BF9EB600085894D /* Build configuration list for PBXNativeTarget "Astrology" */;
+			buildPhases = (
+				DF08CCC31BF9EB5F0085894D /* Sources */,
+				DF08CCC41BF9EB5F0085894D /* Frameworks */,
+				DF08CCC51BF9EB5F0085894D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Astrology;
+			productName = Astrology;
+			productReference = DF08CCC71BF9EB5F0085894D /* Astrology.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF08CCDC1BF9EB600085894D /* AstrologyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF08CCE91BF9EB600085894D /* Build configuration list for PBXNativeTarget "AstrologyTests" */;
+			buildPhases = (
+				DF08CCD91BF9EB600085894D /* Sources */,
+				DF08CCDA1BF9EB600085894D /* Frameworks */,
+				DF08CCDB1BF9EB600085894D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF08CCDF1BF9EB600085894D /* PBXTargetDependency */,
+			);
+			name = AstrologyTests;
+			productName = AstrologyTests;
+			productReference = DF08CCDD1BF9EB600085894D /* AstrologyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF08CCBF1BF9EB5F0085894D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Sunpac Solutions";
+				TargetAttributes = {
+					DF08CCC61BF9EB5F0085894D = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					DF08CCDC1BF9EB600085894D = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = DF08CCC61BF9EB5F0085894D;
+					};
+				};
+			};
+			buildConfigurationList = DF08CCC21BF9EB5F0085894D /* Build configuration list for PBXProject "Astrology" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF08CCBE1BF9EB5F0085894D;
+			productRefGroup = DF08CCC81BF9EB5F0085894D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF08CCC61BF9EB5F0085894D /* Astrology */,
+				DF08CCDC1BF9EB600085894D /* AstrologyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF08CCC51BF9EB5F0085894D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF08CCD71BF9EB5F0085894D /* LaunchScreen.storyboard in Resources */,
+				DF08CCD41BF9EB5F0085894D /* Assets.xcassets in Resources */,
+				DF08CCD21BF9EB5F0085894D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF08CCDB1BF9EB600085894D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF08CCC31BF9EB5F0085894D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF08CCCF1BF9EB5F0085894D /* SecondViewController.swift in Sources */,
+				DF08CCCB1BF9EB5F0085894D /* AppDelegate.swift in Sources */,
+				DF08CCCD1BF9EB5F0085894D /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF08CCD91BF9EB600085894D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF08CCE21BF9EB600085894D /* AstrologyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF08CCDF1BF9EB600085894D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF08CCC61BF9EB5F0085894D /* Astrology */;
+			targetProxy = DF08CCDE1BF9EB600085894D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF08CCD01BF9EB5F0085894D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF08CCD11BF9EB5F0085894D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF08CCD51BF9EB5F0085894D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF08CCD61BF9EB5F0085894D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF08CCE41BF9EB600085894D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF08CCE51BF9EB600085894D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF08CCE71BF9EB600085894D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Astrology/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Astrology;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF08CCE81BF9EB600085894D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Astrology/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Astrology;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF08CCEA1BF9EB600085894D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AstrologyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AstrologyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Astrology.app/Astrology";
+			};
+			name = Debug;
+		};
+		DF08CCEB1BF9EB600085894D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AstrologyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AstrologyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Astrology.app/Astrology";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF08CCC21BF9EB5F0085894D /* Build configuration list for PBXProject "Astrology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF08CCE41BF9EB600085894D /* Debug */,
+				DF08CCE51BF9EB600085894D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF08CCE61BF9EB600085894D /* Build configuration list for PBXNativeTarget "Astrology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF08CCE71BF9EB600085894D /* Debug */,
+				DF08CCE81BF9EB600085894D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF08CCE91BF9EB600085894D /* Build configuration list for PBXNativeTarget "AstrologyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF08CCEA1BF9EB600085894D /* Debug */,
+				DF08CCEB1BF9EB600085894D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF08CCBF1BF9EB5F0085894D /* Project object */;
+}
