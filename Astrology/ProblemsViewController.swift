@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  ProblemsViewController.swift
 //  Astrology
 //
 //  Created by Rishabh Wadhwa on 16/11/15.
@@ -8,8 +8,8 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
-
+class ProblemsViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

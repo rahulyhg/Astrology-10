@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DF08CCCB1BF9EB5F0085894D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF08CCCA1BF9EB5F0085894D /* AppDelegate.swift */; };
-		DF08CCCD1BF9EB5F0085894D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF08CCCC1BF9EB5F0085894D /* FirstViewController.swift */; };
-		DF08CCCF1BF9EB5F0085894D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF08CCCE1BF9EB5F0085894D /* SecondViewController.swift */; };
+		DF08CCCD1BF9EB5F0085894D /* ProblemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF08CCCC1BF9EB5F0085894D /* ProblemsViewController.swift */; };
 		DF08CCD21BF9EB5F0085894D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF08CCD01BF9EB5F0085894D /* Main.storyboard */; };
 		DF08CCD41BF9EB5F0085894D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF08CCD31BF9EB5F0085894D /* Assets.xcassets */; };
 		DF08CCD71BF9EB5F0085894D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF08CCD51BF9EB5F0085894D /* LaunchScreen.storyboard */; };
@@ -29,8 +28,7 @@
 /* Begin PBXFileReference section */
 		DF08CCC71BF9EB5F0085894D /* Astrology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Astrology.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF08CCCA1BF9EB5F0085894D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DF08CCCC1BF9EB5F0085894D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		DF08CCCE1BF9EB5F0085894D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DF08CCCC1BF9EB5F0085894D /* ProblemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemsViewController.swift; sourceTree = "<group>"; };
 		DF08CCD11BF9EB5F0085894D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF08CCD31BF9EB5F0085894D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF08CCD61BF9EB5F0085894D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -80,8 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				DF08CCCA1BF9EB5F0085894D /* AppDelegate.swift */,
-				DF08CCCC1BF9EB5F0085894D /* FirstViewController.swift */,
-				DF08CCCE1BF9EB5F0085894D /* SecondViewController.swift */,
+				DF08CCCC1BF9EB5F0085894D /* ProblemsViewController.swift */,
 				DF08CCD01BF9EB5F0085894D /* Main.storyboard */,
 				DF08CCD31BF9EB5F0085894D /* Assets.xcassets */,
 				DF08CCD51BF9EB5F0085894D /* LaunchScreen.storyboard */,
@@ -200,9 +197,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF08CCCF1BF9EB5F0085894D /* SecondViewController.swift in Sources */,
 				DF08CCCB1BF9EB5F0085894D /* AppDelegate.swift in Sources */,
-				DF08CCCD1BF9EB5F0085894D /* FirstViewController.swift in Sources */,
+				DF08CCCD1BF9EB5F0085894D /* ProblemsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +388,7 @@
 				DF08CCE81BF9EB600085894D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF08CCE91BF9EB600085894D /* Build configuration list for PBXNativeTarget "AstrologyTests" */ = {
 			isa = XCConfigurationList;
@@ -400,6 +397,7 @@
 				DF08CCEB1BF9EB600085894D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
