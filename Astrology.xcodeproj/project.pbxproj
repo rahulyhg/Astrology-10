@@ -13,6 +13,7 @@
 		DF08CCD41BF9EB5F0085894D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF08CCD31BF9EB5F0085894D /* Assets.xcassets */; };
 		DF08CCD71BF9EB5F0085894D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF08CCD51BF9EB5F0085894D /* LaunchScreen.storyboard */; };
 		DF08CCE21BF9EB600085894D /* AstrologyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF08CCE11BF9EB600085894D /* AstrologyTests.swift */; };
+		DFFD44E01C0464A500D7FEB9 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD44DF1C0464A500D7FEB9 /* BuyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		DF08CCDD1BF9EB600085894D /* AstrologyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstrologyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF08CCE11BF9EB600085894D /* AstrologyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstrologyTests.swift; sourceTree = "<group>"; };
 		DF08CCE31BF9EB600085894D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFFD44DF1C0464A500D7FEB9 /* BuyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				DF08CCCA1BF9EB5F0085894D /* AppDelegate.swift */,
 				DF08CCCC1BF9EB5F0085894D /* ProblemsViewController.swift */,
+				DFFD44DF1C0464A500D7FEB9 /* BuyViewController.swift */,
 				DF08CCD01BF9EB5F0085894D /* Main.storyboard */,
 				DF08CCD31BF9EB5F0085894D /* Assets.xcassets */,
 				DF08CCD51BF9EB5F0085894D /* LaunchScreen.storyboard */,
@@ -199,6 +202,7 @@
 			files = (
 				DF08CCCB1BF9EB5F0085894D /* AppDelegate.swift in Sources */,
 				DF08CCCD1BF9EB5F0085894D /* ProblemsViewController.swift in Sources */,
+				DFFD44E01C0464A500D7FEB9 /* BuyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
